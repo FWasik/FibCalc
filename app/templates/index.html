@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>Cloud Laboratory - Exercise no.1: Fibonacci</title>
+<body>
+
+<h1>Cloud Laboratory - Exercise no.1: Fibonacci</h1>
+<h3>Franciszek Wąsik</h3>
+<h3>I2S 2.4</h3>
+
+<br>
+<form method="post">
+    <h3>Type n number of Fibonacci sequence to get F(n) value(more than 0 and less than 21): </h3>
+    <input type="text" value="{{ num }}" name="num" required/>
+    <input type="submit" value="Check value">
+</form>
+
+{% if error %}
+    <h3>Error: {{ error }}</h3>
+{% endif %}
+
+
+{% if result or result == 0 %}
+    <h3>
+        F({{ num }}) is: {{ result }}
+    </h3>
+{% endif %}
+
+</body>
+</html>
