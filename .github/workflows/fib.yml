@@ -3,6 +3,8 @@ name: GitHub Action flow to Docker hub - FibCalc
 on:
 #  workflow_dispatch:
   push:
+    branches:
+      - 'main'
     tags:
       - 'v*'
 
@@ -56,3 +58,5 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
