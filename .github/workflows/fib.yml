@@ -36,8 +36,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-          dilreni2137/Cloud_Lab:FibCalc
-          ghcr.io/${{ github.repository }}
+            dilreni2137/Cloud_Lab:FibCalc
+            ghcr.io/${{ github.repository }}
           tags: |
             type=ref,event=branch
             type=ref,event=pr
