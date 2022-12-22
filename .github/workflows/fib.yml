@@ -42,7 +42,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            dilreni2137/Cloud_Lab
+            dilreni2137/cloud_lab
             ghcr.io/${{ github.repository }}
           tags: |
             type=ref,event=branch
@@ -58,5 +58,5 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=registry,ref=docker.io/dilreni2137/Cloud_Lab:cache
-          cache-to: type=registry,ref=docker.io/dilreni2137/Cloud_Lab:cache,mode=max
+          cache-from: type=registry,ref=docker.io/dilreni2137/cloud_lab:cache
+          cache-to: type=registry,ref=docker.io/dilreni2137/cloud_lab:cache,mode=max
