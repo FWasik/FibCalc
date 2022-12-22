@@ -4,6 +4,7 @@
     <list default="true" id="bc9bcf01-cf8b-4877-8664-ba4aa1579550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/fib.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/fib.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
