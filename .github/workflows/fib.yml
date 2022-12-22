@@ -59,4 +59,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=registry,ref=docker.io/dilreni2137/Cloud_Lab:cache
-          cache-to: type=registr,ref=docker.io/dilreni2137/Cloud_Lab:cache,mode=max
+          cache-to: type=registry,ref=docker.io/dilreni2137/Cloud_Lab:cache,mode=max
