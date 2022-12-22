@@ -3,8 +3,6 @@ name: GitHub Action flow to Docker hub - FibCalc
 on:
 #  workflow_dispatch:
   push:
-    branches:
-      - 'main'
     tags:
       - 'v*'
 
