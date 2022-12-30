@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9bcf01-cf8b-4877-8664-ba4aa1579550" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/fib.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/fib.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,22 @@
       <recent name="C:\Users\frane\PycharmProjects\Zad_1_Chmury\core\app" />
       <recent name="C:\Users\frane\PycharmProjects\Zad_1_Chmury\Zad" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dockerfile.v1" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="dockerfile.v1" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.dockerfile.v1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
